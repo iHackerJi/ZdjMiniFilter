@@ -54,7 +54,7 @@ FLT_PREOP_CALLBACK_STATUS ZdjPreCallback(
 				Data->Iopb->Parameters.AcquireForSectionSynchronization.PageProtection == PAGE_EXECUTE_READ ||
 				Data->Iopb->Parameters.AcquireForSectionSynchronization.PageProtection == PAGE_EXECUTE_READWRITE
 			)
-		{
+		{//
 			//DbgBreakPoint();
 			GetFileNameForCallBackData(Data, &Name);
 			HANDLE	Id = PsGetCurrentProcessId();

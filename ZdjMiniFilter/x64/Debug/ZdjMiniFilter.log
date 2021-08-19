@@ -1,0 +1,13 @@
+﻿  Building 'ZdjMiniFilter' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  DriverEntry.c
+  ZdjMiniFilter.c
+  ZdjCallback.c
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjcallback.c(63): warning C4047: “==”:“HANDLE”与“int”的间接级别不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjcallback.c(77): warning C4242: “函数”: 从“LONGLONG”转换到“ULONG”，可能丢失数据
+  正在生成代码...
+  ZdjMiniFilter.vcxproj -> C:\Users\zdj\source\repos\ZdjMiniFilter\x64\Debug\ZdjMiniFilter.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\zdj\source\repos\ZdjMiniFilter\x64\Debug\ZdjMiniFilter.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  

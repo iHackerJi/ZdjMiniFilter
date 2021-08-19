@@ -1,0 +1,20 @@
+﻿  Building 'ZdjMiniFilter' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  DriverEntry.c
+  ZdjMiniFilter.c
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(11): warning C4047: “函数”:“PCWSTR”与“WCHAR”的间接级别不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(11): warning C4024: “RtlInitUnicodeString”: 形参和实参 2 的类型不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(33): warning C4133: “函数”: 从“char [11]”到“const wchar_t *”的类型不兼容
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(35): warning C4047: “函数”:“WCHAR”与“WCHAR [256]”的间接级别不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(35): warning C4024: “ZdjCreateKey”: 形参和实参 1 的类型不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(45): warning C4133: “函数”: 从“char [15]”到“const wchar_t *”的类型不兼容
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(46): warning C4047: “函数”:“WCHAR”与“WCHAR [256]”的间接级别不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(46): warning C4024: “ZdjCreateKey”: 形参和实参 1 的类型不同
+c:\users\zdj\source\repos\zdjminifilter\zdjminifilter\zdjminifilter.c(52): warning C4022: “ZdjSetKey”: 指针与实参 4 不匹配
+  ZdjCallback.c
+  正在生成代码...
+  ZdjMiniFilter.vcxproj -> C:\Users\zdj\source\repos\ZdjMiniFilter\Debug\ZdjMiniFilter.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\zdj\source\repos\ZdjMiniFilter\Debug\ZdjMiniFilter.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
